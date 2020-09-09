@@ -1,0 +1,10 @@
+$(function(){
+    $('#link_reg').on('click',()=>{
+        $('.login_box').hide()
+        $('.reg_box').show()
+    })
+    $('#link_login').on('click',()=>{
+        $('.reg_box').hide()
+        $('.login_box').show()
+    })
+})
